@@ -103,6 +103,17 @@ Resets the user's achievements and leaderboard.
 gamecenter.resetAchievements(successCallback, failureCallback);
 ```
 
+### Show achievements
+
+Show default view for achievements.
+
+```
+var data = {
+	showAchievements: true
+};
+gamecenter.showLeaderboard(successCallback, failureCallback, data);
+```
+
 ### Fetch achievements
 
 Fetches the user's achievements from the game center:
